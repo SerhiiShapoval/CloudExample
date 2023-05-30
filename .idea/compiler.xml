@@ -8,7 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="config-service" />
-        <module name="notes" />
+        <module name="notes-service" />
         <module name="discovery-service" />
         <module name="person-service" />
       </profile>
@@ -16,7 +16,7 @@
     <bytecodeTargetLevel>
       <module name="config-service" target="17" />
       <module name="discovery-service" target="17" />
-      <module name="notes" target="17" />
+      <module name="notes-service" target="17" />
       <module name="person-service" target="17" />
     </bytecodeTargetLevel>
   </component>
@@ -24,7 +24,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="config-service" options="-parameters" />
       <module name="discovery-service" options="-parameters" />
-      <module name="notes" options="-parameters" />
+      <module name="notes-service" options="-parameters" />
       <module name="person-service" options="-parameters" />
     </option>
   </component>
