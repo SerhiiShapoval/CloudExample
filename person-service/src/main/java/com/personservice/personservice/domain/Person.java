@@ -19,6 +19,6 @@ public class Person {
     @Column(name = "first_name")
     private String firstName;
 
-    @Column(name = "second_name")
+    @Column(name = "last_name")
     private String lastName;
 }
