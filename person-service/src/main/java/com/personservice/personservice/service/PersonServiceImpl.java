@@ -34,6 +34,6 @@ public class PersonServiceImpl implements PersonService {
                 .orElseThrow();
         var notes = notesClients.getNotesByPersonId(personId);
 
-        return new PersonDto(person.getFirstName(), person.getSecondName(), notes);
+        return new PersonDto(person.getFirstName(), person.getLastName(), notes);
     }
 }
