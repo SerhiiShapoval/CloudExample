@@ -1,0 +1,6 @@
+server:
+  port: 8347
+spring:
+  jpa:
+    generate-ddl: true
+
