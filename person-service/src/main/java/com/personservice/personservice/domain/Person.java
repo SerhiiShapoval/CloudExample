@@ -20,5 +20,5 @@ public class Person {
     private String firstName;
 
     @Column(name = "second_name")
-    private String secondName;
+    private String lastName;
 }
